@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Contains tatasky_payment.module.
+ */
+
+use Drupal\Core\Url;
+
+/**
+ * Implements hook_page_attachments().
+ */
+function push_notification_demo_page_attachments(array &$page) {
+  $page['#attached']['drupalSettings']['sw_register']['path'] = Url::fromUri('base:/sw.js', ['absolute' => TRUE])->toString();
+  $page['#attached']['library'][] = 'push_notification_demo/pushnotificationlibrary';
+}

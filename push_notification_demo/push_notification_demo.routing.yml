@@ -1,0 +1,15 @@
+push_notification_demo.send_notification:
+    path: '/send-notification'
+    defaults:
+      _controller: 'Drupal\push_notification_demo\Controller\PushNotification::sendNotification'
+      _title: 'Send Notification Controller'
+    requirements:
+      _permission: 'access content'
+
+your_module.admin_settings:
+    path: '/admin/config/notification-auth-details'
+    defaults:
+      _form: '\Drupal\push_notification_demo\Form\NotificationAuthDetailsConfigurationForm'
+      _title: 'Configuration form for Notification Auth Details'
+    requirements:
+      _permission: 'administer site configuration'

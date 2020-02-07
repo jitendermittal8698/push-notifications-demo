@@ -1,0 +1,14 @@
+
+# Notification subscriber entity menu items definition
+entity.notification_subscriber_entity.collection:
+  title: 'Notification subscriber entity list'
+  route_name: entity.notification_subscriber_entity.collection
+  description: 'List Notification subscriber entity entities'
+  parent: system.admin_structure
+  weight: 100
+
+notification_subscriber_entity.admin.structure.settings:
+  title: 'Notification subscriber entity settings'
+  description: 'Configure Notification subscriber entity entities'
+  route_name: notification_subscriber_entity.settings
+  parent: system.admin_structure

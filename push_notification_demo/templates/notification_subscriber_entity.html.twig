@@ -1,0 +1,22 @@
+{#
+/**
+ * @file notification_subscriber_entity.html.twig
+ * Default theme implementation to present Notification subscriber entity data.
+ *
+ * This template is used when viewing Notification subscriber entity pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_notification_subscriber_entity()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('notification_subscriber_entity') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

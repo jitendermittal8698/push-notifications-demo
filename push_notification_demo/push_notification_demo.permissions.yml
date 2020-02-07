@@ -1,0 +1,19 @@
+add notification subscriber entity entities:
+  title: 'Create new Notification subscriber entity entities'
+
+administer notification subscriber entity entities:
+  title: 'Administer Notification subscriber entity entities'
+  description: 'Allow to access the administration form to configure Notification subscriber entity entities.'
+  restrict access: true
+
+delete notification subscriber entity entities:
+  title: 'Delete Notification subscriber entity entities'
+
+edit notification subscriber entity entities:
+  title: 'Edit Notification subscriber entity entities'
+
+view published notification subscriber entity entities:
+  title: 'View published Notification subscriber entity entities'
+
+view unpublished notification subscriber entity entities:
+  title: 'View unpublished Notification subscriber entity entities'
